@@ -1,0 +1,50 @@
+https://www.youtube.com/watch?v=JfpCicDUMKc
+https://www.youtube.com/watch?v=6dytzOEXAz4
+
+----Посмотреть все команды git
+git
+
+----Склонировать проект в новое рабочее место
+cd ~/Documents/GitHub/git_tutorial
+git clone https://github.com/hobbpilot/git_tutorial.git	#ссылку  брать с веб
+
+----Добавить папку с файлами в репозиторий
+git init
+
+----Статус проекта
+cd ~/Documents/GitHub/git_tutorial
+git status
+
+----проверка на измененные файлы
+git diff
+
+----Добавить файлы в список для загрузки
+git add README.md	#добавить файл для загрузки
+----или
+git add -A	#добавить ВСЕ файлы для загрузки
+
+----Загрузка в веб
+git commit -m "first commit" 	#указать название для загрузки
+git push	#загрузить файл на https://github.com
+
+----получить файлы с сайта
+git pull	#получить файлы с сайта
+
+----Посмотреть инфо о пушах
+git log
+
+
+
+----Подсказка от GIT
+echo "# git_tutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hobbpilot/git_tutorial.git
+git push -u origin main
+----
+git remote add origin https://github.com/hobbpilot/git_tutorial.git
+git branch -M main
+git push -u origin main
+----
