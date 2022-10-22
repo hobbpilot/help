@@ -1,0 +1,32 @@
+//Комментарий
+
+//Вывод текста в консоль
+System.out.println("Hello world!");
+System.out.println(a + b);
+
+//Подключение класса Scanner:
+//перехват ввода с клавиатуры
+import java.util.Scanner;
+
+//Подключение класса для региональных настроек
+import java.util.Locale;
+
+//настройка Scanner на использование десятичной точки 
+scanner.useLocale(Locale.US);
+
+
+//Создание объекта класса Scanner
+Scanner scanner = new Scanner(System.in);
+
+//Присваиваем переменной "a" целого значения введенного с клавиатуры с помощью функции класса Scanner
+int a = scanner.nextInt();
+
+//Присваиваем переменной "r" вещественного значения введенного с клавиатуры с помощью функции класса Scanner
+double r = scanner.nextDouble();
+
+//Остаток от деления
+//Вывод последней цифры
+System.out.println(a % 10);
+
+
+
