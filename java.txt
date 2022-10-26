@@ -1,6 +1,9 @@
 //Комментарий
 
 //Вывод текста в консоль
+System.out.print("Введите первое число: ");
+
+//Вывод текста в консоль и перевод строки
 System.out.println("Hello world!");
 System.out.println(a + b);
 
@@ -15,7 +18,7 @@ import java.util.Locale;
 scanner.useLocale(Locale.US);
 
 
-//Создание объекта класса Scanner
+//Создание экземпляра класса Scanner для считывания данных с консоли
 Scanner scanner = new Scanner(System.in);
 
 //Присваиваем переменной "a" целого значения введенного с клавиатуры с помощью функции класса Scanner
